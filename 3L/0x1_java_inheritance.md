@@ -99,7 +99,7 @@ class A extends B{
 }
 ```
 When you run the Test class in the first code,both 'a.p(10)' and 'a.p(10.0)' invoke the 'p(double i)' method defined in calss 'A' to display 10.0.But in the second code,'a.p(10)' invokes the 'p(int i)' method to display 10,and 'a.p(10.0)' invokse the 'p(double i)' method to display 20.0.
-###Note the following:
+### Note the following:
 - Overridden methods  are in defferent classes related by inheritance;overloaded methods can be either in the same classes or different classes  related by inheritance.
 
 
