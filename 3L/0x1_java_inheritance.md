@@ -1,5 +1,5 @@
 # Inheritance
-Object-oriented programming aliows you to define new classes from existing classes.This is called inheritance.
+Object-oriented programming allows you to define new classes from existing classes.This is called inheritance.
 ## Superclasses and Subclasses
 Inheritance enables you to define a general class and later extend it to more specialized classes.
 ```
@@ -98,8 +98,8 @@ class A extends B{
 	}
 }
 ```
-- When you run the Test class.The first displays 10.0.But the second displays 10 and 20.0.
-Note the following:
+When you run the Test class in the first code,both 'a.p(10)' and 'a.p(10.0)' invoke the 'p(double i)' method defined in calss 'A' to display 10.0.But in the second code,'a.p(10)' invokes the 'p(int i)' method to display 10,and 'a.p(10.0)' invokse the 'p(double i)' method to display 20.0.
+###Note the following:
 - Overridden methods  are in defferent classes related by inheritance;overloaded methods can be either in the same classes or different classes  related by inheritance.
 
 
